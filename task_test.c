@@ -1,0 +1,16 @@
+////////////////////////////////////////////////////////////////////////////////
+//
+//  task_test.c
+//
+//  Created by Austin Cherry on 9/17/15.
+//  Copyright (c) 2015 Vluxe. All rights reserved.
+//
+////////////////////////////////////////////////////////////////////////////////
+
+#include <stdio.h>
+#include "task.h"
+
+void taskTask() {
+  const char *res = runTask("ls -l -a");
+  printf("%s\n", res);
+}
